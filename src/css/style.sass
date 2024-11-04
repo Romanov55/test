@@ -304,7 +304,7 @@ textarea
     @media (max-width:770px)
         justify-content: flex-start
         flex-direction: column
-        gap: 2vw
+        gap: 4vw
 
     .pages
         display: flex
@@ -356,11 +356,14 @@ textarea
         right: 0
         top: 0
 
+        @media (max-width:770px)
+            position: static
+
         button
             padding: 0.86vw 4.3vw 0.7vw 2.5vw
 
             @media (max-width:770px)
-                position: relative
+                width: 100%
                 padding: 2.5vw 9vw 2vw 6vw
 
         

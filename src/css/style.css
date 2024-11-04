@@ -360,7 +360,7 @@ textarea.error {
   .bottom__block {
     justify-content: flex-start;
     flex-direction: column;
-    gap: 2vw;
+    gap: 4vw;
   }
 }
 .bottom__block .pages {
@@ -421,12 +421,17 @@ textarea.error {
   right: 0;
   top: 0;
 }
+@media (max-width: 770px) {
+  .bottom__block .button__box {
+    position: static;
+  }
+}
 .bottom__block .button__box button {
   padding: 0.86vw 4.3vw 0.7vw 2.5vw;
 }
 @media (max-width: 770px) {
   .bottom__block .button__box button {
-    position: relative;
+    width: 100%;
     padding: 2.5vw 9vw 2vw 6vw;
   }
 }

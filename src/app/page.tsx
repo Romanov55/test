@@ -1,10 +1,9 @@
-import { Form } from "@/components/form";
-import { SendButton } from "@/components/sendButton";
+import { FormCont } from "@/components/formCont";
 
 export default function Home() {
   return (
     <section className="container">
-      <Form />
+      <FormCont />
     </section>
   );
 }
